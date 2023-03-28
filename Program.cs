@@ -4,9 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hello, World!"); //
 
-            //int numero = int.Parse(Console.ReadLine());
 
             bool rtaParse = int.TryParse(Console.ReadLine(), out int resultado);
 
